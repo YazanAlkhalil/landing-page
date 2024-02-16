@@ -1,0 +1,342 @@
+body{
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+}
+.nav{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    position: relative;
+    padding: 30px 40% 5px 17%;
+}
+.header h1{
+    font-size: 40px;
+    color: white;
+}
+.header p {
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+}
+.shapes{
+    width: 100%;
+}
+.texture{
+    position: relative;
+    z-index: 1;
+    top: -800px;
+    width: 100%;
+    right: 0px;
+}
+.title1{
+    margin-bottom: -36px;
+    margin-left: 221px;
+    padding-bottom: 0;
+    padding-left: 0;
+    display: flex;
+width: 27.2px;
+height: 98.766px;
+transform: rotate(-90deg);
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-family: "Nunito Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; 
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.image{
+    height:800.5px;
+}
+.title1 p {
+    margin: 0;
+    
+}
+.cards{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 310px;
+    
+}
+.card{
+    border: 0.5px solid gray;
+    padding: 20px 60px;
+    
+}
+.card h3{
+    font-size: 31.248px;
+font-style: normal;
+font-weight: 600;
+    margin-bottom: 30px;
+}
+.card p {
+    font-family: "Noto Serif JP";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 25.6px;
+margin-bottom: 100px;
+}
+#lastcard{
+    border-right: none;
+}
+.readmore{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 320px;
+}
+.readmore img{
+margin-right: 20px;
+}
+#word{
+    margin-top: 300px;
+}
+.firstcolumn{
+    margin-left: 17%;
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 70px;
+}
+.secondcolumn{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.common p {
+color: #E6E7E8;
+font-family: "Noto Serif JP";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 25.6px; 
+}
+.section3{
+    margin-left: 70px;
+    display: flex;
+}
+.section3 img {
+    width: 500px;
+}
+.common{
+    width: 500px;
+}
+.common h6{
+color: #FFF;
+font-family: "Nunito Sans";
+font-size: 31.248px;
+font-style: normal;
+font-weight: 600;
+line-height: 37.498px; 
+}
+.testimonials{
+    padding-top: 20px;
+    border: 1px solid gray;
+    margin-left: 24%;
+}
+
+.testimonial{
+    margin: 0 auto 150px;
+    width: 37%;
+}
+.testimonial img{
+    height: 67px;
+    margin-right: 10px;
+}
+
+.details{
+    display: flex;
+}
+.details div .name {
+    margin: 10px 0 0;
+color: #FFF;
+font-family: "Nunito Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; /* 128% */
+}
+.ocupation{
+margin-top: 0;
+color: #FFF;
+font-family: "Nunito Sans";
+font-size: 9px;
+font-style: normal;
+font-weight: 100;
+line-height: 25.6px; /* 200% */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.casestudy{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.casestudy img{
+    height: 20px;
+}
+.resources{
+    margin-top: 150px;
+}
+#circlecontainer{
+    display: flex;
+    justify-content: center;
+}
+.resourcesshapes{
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.resourcesshapes .firstimg{
+    margin-bottom: 120px;
+}
+.resourcesshapes .secondimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+.resourcesshapes .secondimg .info{
+    position: relative;
+    z-index: 1;
+    bottom: -80px;
+    right: -220px;
+    width: 150px;
+}
+.resourcesshapes .secondimg .info h6{
+font-family: "Nunito Sans";
+margin-bottom: 20px;
+font-size: 39px;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.resourcesshapes .secondimg .info .casestudy{
+    margin-left: 0;
+}
+.resourcesshapes .secondimg .info > p{
+    margin-bottom: 0;
+}
+.resourcesshapes .secondimg .info .casestudy img{
+    margin-right: 10px;
+}
+.table{
+    border: 1px solid darkgrey;
+    border-right: none;
+    font-family: "Nunito Sans", sans-serif;
+    width: 75%;
+    margin-left: 25%;
+}
+.table tr > td{
+    padding-top: 20px;
+    border-collapse: collapse;
+}
+.table p {
+    width: 200px;
+}
+[rowspan="2"]{
+    border-right: 1px solid darkgray;
+    padding: 20px 20px 10px 80px;
+}
+.table .casestudy{
+    margin-left: 0px;
+    
+
+}
+[rowspan="2"] h6{
+    margin-top: 20px;
+
+margin-bottom: 20px;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 37.498px; /* 120% */
+}
+.form{
+    border-bottom: 1px solid darkgray;
+    padding: 0px 30px ;
+}
+.table .casestudy img{
+    margin-right: 10px;
+}
+.call{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.form h4{
+    
+margin-top: 0;
+font-family: "Nunito Sans", sans-serif;
+font-size: 25.248px;
+font-style: normal;
+font-weight: 600;
+line-height: 37.498px; /* 120% */
+}
+.table .form td{
+    border: 0px;
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+.submit p{
+    width: 100px;
+}
+.submit input{
+    width: 100px;
+}
+.calender{
+    display: flex;
+}
+input{
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background-color: black;
+}
+input[type="file"]::-webkit-file-upload-button {
+    display: none;
+  }
+.submit input{
+    color: white;
+}
+.calender img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer{
+    white-space: ;
+    font-size: 13px;
+    font-weight: 200;
+    margin: 100px 0 10px 370px;
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    margin-right: 60px;
+}
+footer .location{
+    margin-top: 40px;
+}
